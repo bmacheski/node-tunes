@@ -1,0 +1,23 @@
+{
+  "name": "node-tunes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bmacheski/node-tunes.git"
+  },
+  "author": "Brian Macheski <bwm0007@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bmacheski/node-tunes/issues"
+  },
+  "homepage": "https://github.com/bmacheski/node-tunes#readme",
+  "dependencies": {
+    "ejs": "^2.3.3",
+    "express": "^4.13.3"
+  }
+}
