@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+  <head>
+    <% include ../partials/head %>
+  </head>
+  <body>
+    <header>
+      <% include ../partials/header %>
+    </header>
+    <table class="ui celled table">
+      <thead>
+        <th>Name</th>
+        <th>Genre</th>
+        <th>Bio</th>
+      </thead>
+      <tbody>
+        <% artists.forEach(function (artist) { %>
+        <tr>
+          <td><%= artist.name %></td>
+          <td><%= artist.genre %></td>
+          <td><%= artist.bio %></td>
+        </tr>
+        <% }) %>
+      </tbody>
+    </table>
+    <footer>
+      <% include ../partials/footer %>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,29 @@
+.create-artist {
+  margin-top: 10px;
+}
+
+h1 {
+  margin-left: 10px;
+}
+
+.search-res {
+  margin-top: 40px;
+}
+
+.ui.pointing.menu {
+  background-color: #1b1c1d;
+}
+
+.ui.pointing.menu a {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.ui.pointing.menu a:hover{
+  color:  white;
+}
+
+.newartist-form {
+  margin-left: 10px;
+  margin-right: auto;
+  width: 900px;
+}
